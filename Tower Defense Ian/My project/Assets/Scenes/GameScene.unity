@@ -418,7 +418,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TurretGun
+  m_Text: TurretGun_Strong
 --- !u!222 &214057080
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2898,7 +2898,7 @@ MonoBehaviour:
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 50
     m_Alignment: 7
     m_AlignByGeometry: 0
@@ -2906,7 +2906,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '20
+  m_Text: '10
+
 
 '
 --- !u!222 &1693983223
@@ -3144,7 +3145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6117a5f44855a5f47bfbf6bcf239a1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gunCost: 1
+  _gunCost: 10
   _gunPoolObject: {fileID: 1821787837}
   _coinsNumber: {fileID: 935003034}
   _onGunPurchased:
@@ -3662,7 +3663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6117a5f44855a5f47bfbf6bcf239a1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gunCost: 1
+  _gunCost: 20
   _gunPoolObject: {fileID: 538425541}
   _coinsNumber: {fileID: 935003034}
   _onGunPurchased:
